@@ -11,9 +11,9 @@ Errors = {"camera1": -0.2218, "camera2": 0, "camera3": 0.065, "radar": 0}
 
 Name_Of_Database = "BoatData"  # 数据库名称
 
-Path_Of_Database = "."  # 数据库存储路径（默认为当前路径）
+Path_Of_Database = ".."  # 数据库存储路径（默认为当前路径）
 
-Path_Of_Data = "./Origin_Data"  # 数据集所在路径（默认为存在同一路径下的Origin_Data文件夹中）
+Path_Of_Data = "../Origin_Data"  # 数据集所在路径（默认为存在同一路径下的Origin_Data文件夹中）
 
 Initialize_Command = (
     f"CREATE TABLE {Name_Of_Database}(BoatName, x, y, Timestamp, Source);"  # 初始化数据库的命令

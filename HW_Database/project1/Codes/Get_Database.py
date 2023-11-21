@@ -53,7 +53,7 @@ def make_complete_database(path=Path_Of_Database):
     db.execute(Initialize_Command)
     Boat_list = sorted(
         [
-            f"./Origin_Data/{folder}"
+            f"{Path_Of_Data}/{folder}"
             for folder in os.listdir(Path_Of_Data)
             if folder.startswith("boat")
         ]
